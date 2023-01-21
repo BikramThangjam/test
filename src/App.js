@@ -1,6 +1,5 @@
 import Home from './pages/home/Home';
 import Header from './components/shared/header/Header';
-import Footer from './components/shared/footer/Footer';
 import ProductDetail from './components/productDetail/ProductDetail';
 import Favourites from './components/favourites/Favourites';
 import Cart from './pages/cart/Cart';
@@ -25,7 +24,6 @@ const App = () => {
                     <Route path="/signup" element={<Signup />} />
                     <Route path="/reset_password" element={<ResetPassword />} />
                 </Routes>
-                {/* <Footer/> */}
             </BrowserRouter>
         </Provider>
     )
