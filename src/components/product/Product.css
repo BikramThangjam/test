@@ -1,0 +1,102 @@
+
+
+.card-main{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: transform .4s; /* Animation */
+    width: 320px;
+    height: 300px;
+    margin: auto;
+}
+
+.card-main:hover{
+    transform: scale(1.03);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+
+.img-link{
+  width: 60%;
+  margin: auto;
+}
+
+.card-img{
+    height:230px;
+}
+
+/*card-btn 1 style*/
+.removeCard-btn{
+    background-color: #45e215;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 12px 10px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.removeCard-btn:hover{
+   background-color: #f00e3f;
+}
+ 
+
+/*card-btn 2 style*/
+.addCart-btn {
+    --b: 3px;   /* border thickness */
+    --s: .45em; /* size of the corner */
+    --color: black;
+    --color2: #45e215;
+    
+    padding: calc(.4em + var(--s)) calc(.6em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 17px;
+  
+    border: 0;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .addCart-btn:hover,
+  .addCart-btn:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+  }
+  
+  .addCart-btn:active {
+    background: var(--color2);
+    color: #fff;
+  }
+  
+
+.heart-icon{
+    font-size:28px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.red{
+  color: red;
+}
+.card-title{
+    white-space: nowrap;
+    overflow: hidden;
+  text-overflow: ellipsis;
+}
+.star-color{
+    color:rgba(250, 250, 5, 0.877);
+}
+
+.img-link{
+  cursor: pointer;
+}
+
+

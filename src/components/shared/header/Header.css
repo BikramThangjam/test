@@ -1,0 +1,103 @@
+.brand{
+    cursor: pointer;  
+}
+  
+  h5 {
+    /* margin: 20px; */
+    font-family: "Paytone One";
+    color: #202020;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+  }
+  
+  h5 span {
+    display: block;
+    margin: 11px 0 17px 0;
+    font-size: 45px;
+    line-height: 80px;
+    color: #f1ebe5;
+    text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+    letter-spacing: -4px;
+  }
+
+.text-link:focus,.text-link:visited,.text-link:link,.text-link:active{
+    text-decoration: none;
+}  
+.text-link:hover{
+    color: white !important;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.offcanvas-body{
+    padding: 0;
+}
+.navbar-nav li a,.navbar-nav li>span, .cat-menu span{
+    padding: 8px 16px;
+}
+.navbar-nav li a:hover,.navbar-nav li>span:hover, .cat-menu span:hover{
+    background-color: rgb(247, 150, 60);
+    color: white;
+}
+
+.cat-menu{
+    margin-left: 16px;
+    z-index: 9999;
+    cursor: pointer;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+}
+.ls-dropdown{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(245, 173, 80) 0%, rgb(245, 151, 97) 90% );
+    z-index: 9999;
+}
+.dropdown-menu span{
+    transition: 0.1s;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.login-signup-nav2{
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+    width: 160px;
+    height: 40px;
+    transition: 0.5s;
+}
+
+.login-signup-nav2:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.fs-7{
+    font-size: 14px;
+}
+
+.nav-bg{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+  }
+
+.menu-btn{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+}
+
+@media (max-width:991px){
+    .login-signup-nav{
+        display: none;
+    }
+}
+
+@media (min-width:992px){
+    .menu-btn{
+        display: none;
+    }
+}

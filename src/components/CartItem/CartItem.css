@@ -1,0 +1,20 @@
+
+.cart-product img{
+    min-width: 100px;
+}
+.del-btn{
+    cursor: pointer; 
+    position:absolute;
+    top: 30px;
+    right: 20px;
+}
+.del-btn:hover{
+    color: red;
+}
+
+@media (max-width:665px){
+    .del-btn{
+        top: 80px;
+        right: 0px;
+    }
+}   
