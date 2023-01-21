@@ -8,6 +8,7 @@ import Signup from './pages/signup/Signup';
 import ResetPassword from './pages/resetPassword/ResetPassword';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Provider } from 'react-redux';
+import Footer from './components/shared/footer/Footer';
 import store from './store';
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
                     <Route path="/signup" element={<Signup />} />
                     <Route path="/reset_password" element={<ResetPassword />} />
                 </Routes>
+                <Footer/>
             </BrowserRouter>
         </Provider>
     )
