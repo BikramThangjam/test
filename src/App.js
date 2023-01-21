@@ -25,7 +25,7 @@ const App = () => {
                     <Route path="/signup" element={<Signup />} />
                     <Route path="/reset_password" element={<ResetPassword />} />
                 </Routes>
-                <Footer/>
+                {/* <Footer/> */}
             </BrowserRouter>
         </Provider>
     )
